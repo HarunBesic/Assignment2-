@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="/css/styling.css">
+<link rel="stylesheet" href="/css/javascriptstyle.css">
+<title>Main Page</title>
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">
+<a href="/html/esportsmain.html" target="_blank">Esports Tournaments</a>
+</div>
+<ul class="nav-links">
+<li><a href="/html/csgo.html" target="_blank">CSGO Tournaments</a></li>
+<li><a href="/html/leagueoflegends.html" target="_blank">League of Legends Tournaments</a></li>
+<li><a href="/html/dota2.html" target="_blank" >DOTA 2 Form</a></li>
+<li><a href="mailto:amela.vatres@stu.ibu.edu.ba">Send an Email to Amela</a></li>
+</ul>
+</nav>
+
+</header>
+<div class="imageandtext">
+<h2 class="header1">Esports Tournaments</h2>
+<img src="/pictures/mainsite1.jpg" id="image1" alt="Esports tournament header"
+onerror="this.onerror=null; this.outerHTML='<p>Image not available. Please check your connection or try again later.</p>';">
+</div>
+
+<div class="textbox1">
+<p class="paragraph">
+Esports, is a form of competition using video games. 
+Esports often takes the form of organized, multiplayer video game competitions, particularly between professional players, played individually or as teams. 
+Multiplayer competitions were long a part of video game culture, but were largely between amateurs until the late 2000s, when the advent of online streaming media platforms, particularly YouTube and Twitch, enabled a surge in participation by professional gamers and spectators.
+By the 2010s, esports was a major part of the video game industry, with many game developers designing for and funding for tournaments and other events.
+</p>
+</div>
+
+<div>
+<h2 class="header2">How did it become popular?</h2>
+</div>
+
+<div class="textbox2">
+<p class="paragraph"> 
+Esports first became popular in East Asia, particularly in China and South Korea (which first licensed professional players in 2000) but less so in Japan, whose broad anti-gambling laws prohibit professional gaming tournaments.
+Esports are also popular in Europe and the Americas, which host regional and international events.
+It also got popular due to the rise of streaming platforms and due to the support from game developers.
+Esports began to receive coverage on traditional media platforms, and companies like Coca-Cola, Intel, and Red Bull started sponsoring events and teams.
+And, in the early 2010s,  most viewers were between the ages of 18 and 34.
+</p>
+</div>
+
+<div>
+<h2 class="header3">Which games now lead esports?</h2>
+</div>
+
+<div class="textbox3">
+<p class="paragraph">
+A number of games are popular among professional competitors. 
+The tournaments which emerged in the mid-1990s coincided with the popularity of fighting games and first-person shooters, genres which still maintain a devoted fan base. In the 2000s, real-time strategy games became overwhelmingly popular in South Korean internet cafés, with crucial influence on the development of esports worldwide. 
+Competitions exist for many titles and genres, though the most popular games as of the early 2020s are Counter-Strike: Global Offensive, Call of Duty, League of Legends, Dota 2, Fortnite, Rocket League, Valorant, Hearthstone, Super Smash Bros. Melee, StarCraft II and Overwatch. 
+Hearthstone has also popularized the digital collectible card game (DCCG) genre since its release in 2014.
+</p>
+</div>
+</header>
+
+<section>
+<table class="games-table">
+<thead>
+<tr>
+<th>Game</th>
+<th>Genre</th>
+<th>Notable Fact/Feature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>League of Legends</td>
+<td>MOBA</td>
+<td>World Championships draw millions of viewers annually.</td>
+</tr>
+<tr>
+<td>Dota 2</td>
+<td>MOBA</td>
+<td>Hosts "The International", known for its record-breaking prize pools.</td>
+</tr>
+<tr>
+<td>Counter-Strike: Global Offensive</td>
+<td>First-Person Shooter</td>
+<td>One of the longest-running and most iconic esports titles.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<div class="gallery">
+<img src="/pictures/jspic1.jpg" alt="Thumbnail 1" class="thumbnail" data-full="/pictures/jspic1.jpg">
+<img src="/pictures/jspic2.avif" alt="Thumbnail 2" class="thumbnail" data-full="/pictures/jspic2.avif">
+<img src="/pictures/jspic3.jpg" alt="Thumbnail 3" class="thumbnail" data-full="/pictures/jspic3.jpg">
+<img src="/pictures/jspic4.jpg" alt="Thumbnail 4" class="thumbnail" data-full="/pictures/jspic4.jpg">
+<img src="/pictures/jspic5.png" alt="Thumbnail 5" class="thumbnail" data-full="/pictures/jspic5.png">
+</div>
+
+<div id="modal" class="modal">
+<span id="close" class="close">&times;</span>
+<img id="modal-image" class="modal-content" alt="Full Image">
+</div>
+
+<button type="button" class="btn btn-info custom-btn" data-toggle="modal" data-target="#myModal">
+Click here to learn more about the future of esports
+
+</button>
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content custom-modal-content">
+<div class="modal-header custom-modal-header">
+<h5 class="modal-title" id="exampleModalLabel">The future of esports</h5>
+<button type="button" class="close custom-close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+With continued growth, esports is expected to become even more mainstream, as it will be included in events like the Olympics in the near future.
+More brands are investing in esports, and the community is expanding to include diverse players from everywhere.
+Soon esports will become mainstream as any sport we know, and be televised instead of streamed.
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary custom-btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="custom-footer">
+<div class="footer-content">
+<p>Sources: <a href="https://en.wikipedia.org/wiki/Esports" target="_blank" class="footer-link">Wikipedia</a></p>
+<p>Course: <strong>Foundations of Web Development</strong></p>
+<p>Created by: <strong>Harun Bešić</strong></p>
+</div>
+</footer>
+<script src="/javascript/script1.js"></script>
+</body>
+</html>
+
+
+
