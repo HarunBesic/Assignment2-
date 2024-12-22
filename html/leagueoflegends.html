@@ -7,11 +7,12 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 <link rel="stylesheet" href="/css/styling2.css">
 <title>League of Legends Tournaments</title>
 </head>
 <body>
-
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <a class="navbar-brand" href="/html/esportsmain.html" target="_blank">Main website</a>
@@ -30,6 +31,16 @@
 </div>
 </nav>
 
+<div class="dropdown ml-auto">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="themeSwitcher" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Theme Switcher
+</button>
+<div class="dropdown-menu" aria-labelledby="themeSwitcher">
+<a class="dropdown-item" href="#" data-theme="default">Default</a>
+<a class="dropdown-item" href="#" data-theme="dark">Dark</a>
+<a class="dropdown-item" href="#" data-theme="large-font">Large Font</a>
+</div>
+</div>
 
 <div class="container my-5">
 <h1 class="text-center">League of Legends tournaments</h1>
@@ -47,9 +58,6 @@ In addition to the World Championship, other notable tournaments include the Mid
 </p>
 </div>
 </div>
-
-
-
 
 <div class="row mt-5">
 <div class="col-md-4">
@@ -84,5 +92,6 @@ In addition to the World Championship, other notable tournaments include the Mid
 <footer>
 <p>Harun Bešić | Foundations of Web Development</p>
 </footer>
+<script src="/javascript/script1.js"></script>
 </body>
 </html>

@@ -181,3 +181,37 @@ footer p {
 }
 
 
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.navbar.dark-theme {
+    background-color: #333 !important;
+}
+.card.dark-theme {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+}
+
+body.large-font {
+    font-size: 1.2rem; 
+}
+
+h1.large-font, body.large-font h1 {
+    font-size: 3rem; 
+}
+p.large-font, body.large-font p {
+    font-size: 1.2rem;
+}
+
+.navbar.large-font, body.large-font .navbar {
+    font-size: 1.2rem; 
+}
+
+.navbar.large-font .nav-link, body.large-font .navbar .nav-link {
+    font-size: 1.2rem;
+}
+
+.card.large-font, body.large-font .card {
+    font-size: 1.1rem; 
+}

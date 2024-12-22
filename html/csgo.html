@@ -10,10 +10,11 @@
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <link rel="stylesheet" href="/css/styling2.css">
 <link rel="stylesheet" href="/css/javascriptstyle.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 <title>CS:GO Tournaments</title>
 </head>
-<body>
-
+<body class="csgosite">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <a class="navbar-brand" href="/html/esportsmain.html" target="_blank">Main website</a>
@@ -31,7 +32,6 @@
 </ul>
 </div>
 </nav>
-
 <main class="container my-5">
 <h1>CSGO Majors and their history:</h1>
 </div>
@@ -43,8 +43,17 @@ Each Major features a unique atmosphere, shaped by the culture of the host city,
 Players pour countless hours into perfecting their skills, and teams strategize relentlessly to gain even the smallest edge over their rivals.
 From the underdog stories like Cloud9s victory at ELEAGUE Boston 2018 to the dominance of NAVI in Stockholm 2021, every Major has its own narrative, filled with emotion, drama, and incredible moments that leave a lasting legacy in esports history.
 </p>
+<div><button id="view-more-btn" class="btn btn-secondary mb-3">View more history!</button></div>
 
-<button id="toggle-recent-majors" class="btn btn-primary mb-3">Toggle Recent Major Winners</button>
+<div id="extra-history" style="display: none;">
+<p>
+The Majors are about more than the matches themselves. They are the lifeblood of the Counter-Strike community, a tribute to talent, cooperation, and resilience. 
+The connection between the fans and the players, the unique atmosphere in the venues, and the moments you will remember for life, both on and off the court, are all things that no other tournament provides. 
+Whether its a player forging an angry iron in one round or a team shaking off years of bad fortune to win.
+</p>
+</div>
+
+<button id="toggle-recent-majors" class="btn btn-secondary mb-3">Toggle Recent Major Winners</button>
 <section id="recent-majors" class="mb-5">
 <div class="content">
 <h2 class="text-center">Recent CS:GO Major winners:</h2>
@@ -108,7 +117,7 @@ From the underdog stories like Cloud9s victory at ELEAGUE Boston 2018 to the dom
 </div>
 </div>
 <footer>
-<p>Harun Bešić | Foundations of Web Development.</p>
+<p>Harun Bešić | Foundations of Web Development</p>
 </footer>
 <script src="/javascript/script1.js"></script>
 </body>
