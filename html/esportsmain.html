@@ -9,9 +9,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="/css/styling.css">
 <link rel="stylesheet" href="/css/javascriptstyle.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 <title>Main Page</title>
 </head>
-<body>
+<body class="mainsite">
 
 <nav class="navbar">
 <div class="logo">
@@ -25,7 +27,6 @@
 </ul>
 </nav>
 
-</header>
 <div class="imageandtext">
 <h2 class="header1">Esports Tournaments</h2>
 <img src="/pictures/mainsite1.jpg" id="image1" alt="Esports tournament header"
@@ -112,30 +113,44 @@ Hearthstone has also popularized the digital collectible card game (DCCG) genre 
 <img id="modal-image" class="modal-content" alt="Full Image">
 </div>
 
-<button type="button" class="btn btn-info custom-btn" data-toggle="modal" data-target="#myModal">
-Click here to learn more about the future of esports
+<section class="accordion-section">
+<h2>FAQs</h2>
+<div class="accordion-item">
+<button class="accordion-header">What is esports?</button>
+<div class="accordion-content">
+<p>Esports, in short stands for electronic sports.
+It involves usually organized video game competitions, particularly between professional players, individually in some games or as teams in others.
+These events are often streamed online.
+They range from small local tournaments to large-scale international events.
+Esports has eventually evolved into a multi-billion-dollar industry, with sponsorships, broadcasting rights, and merchandise playing significant roles in its growth.</p>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-header">How do players qualify for tournaments?</button>
+<div class="accordion-content">
+<p>Players qualify for esports tournaments through many and various means.
+It all depends on the game and competition format. 
+The most common methods include regional competitions, where players from specific geographic areas compete for a spot in a larger tournament.
+Some players may qualify by being recruited by professional esports teams, which are often given direct invitations to major tournaments. </p>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-header">Which esports games are most popular regarding streaming?</button>
+<div class="accordion-content">
+<p>As of 2024, several esports games dominate streaming platforms like Twitch. To name a few: League of Legends, Valorant, CS2, Dota 2, Apex Legends, Rainbow Six Siege.</p>
+</div>
+</div>
+</section>
 
-</button>
-<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog">
-<div class="modal-content custom-modal-content">
-<div class="modal-header custom-modal-header">
-<h5 class="modal-title" id="exampleModalLabel">The future of esports</h5>
-<button type="button" class="close custom-close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
+<section>
+<div id="dynamic-content">
 </div>
-<div class="modal-body">
-With continued growth, esports is expected to become even more mainstream, as it will be included in events like the Olympics in the near future.
-More brands are investing in esports, and the community is expanding to include diverse players from everywhere.
-Soon esports will become mainstream as any sport we know, and be televised instead of streamed.
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-secondary custom-btn-secondary" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
+</section>
+
+<section id="esports-news">
+    <h2>Latest Esports News</h2>
+    <div id="dynamic-contents"></div> <!-- This is where the news will be inserted -->
+  </section>
 
 <footer class="custom-footer">
 <div class="footer-content">
@@ -147,6 +162,3 @@ Soon esports will become mainstream as any sport we know, and be televised inste
 <script src="/javascript/script1.js"></script>
 </body>
 </html>
-
-
-

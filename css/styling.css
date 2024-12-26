@@ -154,58 +154,6 @@ body {
     border-bottom: none;
 }
 
-.custom-modal-content {
-    background-color: rgba(37, 23, 236, 0.85); 
-    border-radius: 1px;
-    border: 3px solid #d61d1d; 
-    padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-.custom-modal-header {
-    background-color: rgba(240, 0, 0, 0.9);
-    color: #fff;
-}
-
-.custom-modal-header .modal-title {
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.custom-close {
-    color: #fff;
-    font-size: 1.5rem;
-    opacity: 0.8;
-}
-
-.custom-close:hover {
-    opacity: 1;
-}
-
-.custom-btn {
-    background-color: #0a17ce; 
-    color: #fff;
-    border: none;
-    font-size: 1.1rem;
-    padding: 10px 20px;
-    border-radius: 0;
-    transition: background-color 0.3s ease;
-    width: 100%;
-}
-
-.custom-btn:hover {
-    background-color: #e70000; 
-}
-
-.custom-btn-secondary {
-    background-color: #6c757d;
-    color: #fff;
-}
-
-.custom-btn-secondary:hover {
-    background-color: #1f70ad;
-}
-
 .modal.fade .modal-dialog {
     transform: scale(0.7);
     transition: transform 0.3s ease-in-out;
